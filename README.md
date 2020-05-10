@@ -4,6 +4,13 @@ Hello there! If you're reading this, you have likely heard of [SauceCon](www.sau
 
 These samples are all written using Python 3.7. I recommend using a [virtual environment](https://realpython.com/python-virtual-environments-a-primer/). 
 
+> Select the button below to try this demo in [Gitpod](https://www.gitpod.io/)
+>
+> <a href="https://gitpod.io/#https://github.com/joshmgrant/saucecon_tourAllThePythonThings"><img src="https://github.com/joshmgrant/saucecon_tourAllThePythonThings/blob/master/open-in-gitpod.png" title="Open in Gitpod"></a>
+>
+> [Click here](docs/gitpod_instructions.md) to see how to setup your Sauce Labs credentials in Gitpod
+
+
 To install all needed dependencies, run
 
 ```bash
