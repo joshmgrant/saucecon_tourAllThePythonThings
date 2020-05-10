@@ -1,0 +1,4 @@
+*~
+venv3/
+*html
+__pycache__/**/*
