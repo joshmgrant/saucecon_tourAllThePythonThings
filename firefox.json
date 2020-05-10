@@ -1,0 +1,8 @@
+{
+    "capabilities": {
+        "browserName": "firefox",
+	    "platform": "Windows 10",
+	    "version": "latest",
+	    "tunnelIdentifier": "myTunnel"
+    }
+}

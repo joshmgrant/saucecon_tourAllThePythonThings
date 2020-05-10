@@ -1,0 +1,7 @@
+{
+    "capabilities": {
+        "browserName": "Chrome",
+	    "platform": "Windows 10",
+	    "version": "latest"
+    }
+}

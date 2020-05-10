@@ -1,0 +1,8 @@
+selenium
+pytest
+pytest-xdist
+pytest-selenium
+pytest-variables
+nerodia
+robotframework
+robotframework-seleniumlibrary
