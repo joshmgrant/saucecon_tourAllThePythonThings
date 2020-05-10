@@ -6,7 +6,6 @@ from robot.api.deco import keyword
 TEST_APP_URL = "https://www.saucedemo.com"
 driver = {}
 
-
 class SauceDemo(object):
 
     def __init__(self):

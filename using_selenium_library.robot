@@ -3,30 +3,25 @@ Documentation     A test suite with a single test for valid login.
 ...
 ...               This test has a workflow that is created using keywords in
 ...               the imported resource file.
-Library          resource.py
-Library          resource.SauceDemo
+Resource          resource.robot
 
 
 *** Test Cases ***
 
 Invalid Login
-	Start Session
-
 	Open Login Page
 
-	Login As User  invalid  invalid
+	Login As Invalid User
   
-  	Page should contain error
+  	Page should contain element  class:error-button
 
 	[Teardown]  End Session
 
 Valid Login with Standard User
-	Start Session
-
 	Open Login Page
 
-	Login As User  standard_user  secret_sauce
+	Login As Standard User
 
-	Should Be On Inventory Page
+	Page should contain element  id:shopping_cart_container
 
 	[Teardown]  End Session
