@@ -33,7 +33,8 @@ def test_title(browser):
     assert "Swag Labs" in browser.title
 
 def test_error(browser):
-    browser.text_field(className="btn_action").click()
+    elem = browser.text_field(className="btn_action")
+    elem.click()
 
     assert browser.button(".error-button").is_displayed()
 
